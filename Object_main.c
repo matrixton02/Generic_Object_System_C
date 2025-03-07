@@ -13,6 +13,7 @@ int main(){
     Object_t* c2=new_object_Complex(5.0f,3.0f);
     Object_t* c3=add(c1,c2); // A new Object with complex number is generated using add function.
     Object_t* newStr=multiply(strObj,intObj); //Showcasing multiply fucntion with String and an Integer Object
+    
     //Printing different objects values
     printf("%d\n",intObj->data.v_int);
     printf("%.2f\n",floatObj->data.v_float);
